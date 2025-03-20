@@ -4,6 +4,9 @@
     
         // CARTA 1
 
+        // criando variável
+
+      
     char estado [50];
     char codigo [50];
     char cidade [50];
@@ -11,6 +14,10 @@
     float area;
     float PIB;
     int pontosturisticos;
+
+
+    // entrada de dados
+
 
     printf("Informe seu estado: \n");
     scanf("%s", estado);
@@ -33,11 +40,17 @@
     printf("Informe a quantidade de pontos turísticos em sua cidade: \n");
     scanf("%i", &pontosturisticos);
 
+
+      // saida de dados
+
+      
     printf("\nCarta 1\n\n");  
     printf("Estado: %s \nCidade: %s \nPopulação: %i \nÁrea: %f \nPIB: %f \nPontos turísticos: %i \n\n", estado, cidade, populacao, area, PIB, pontosturisticos);
 
     // CARTA 2
     
+    // criando variável
+
     char estado2 [50];
     char codigo2 [50];
     char cidade2 [50];
@@ -45,6 +58,10 @@
     float area2;
     float PIB2;
     int pontosturisticos2;
+
+
+    // Entrada de dados
+
 
     printf("Informe seu segundo estado: \n");
     scanf("%s", estado2);
@@ -67,30 +84,16 @@
     printf("Informe a quantidade de pontos turísticos em sua segunda cidade: \n");
     scanf("%i", &pontosturisticos2);
 
+
+    // saida de dados
+
+
     printf("\nCarta 2\n\n");
     printf("Estado: %s \nCidade: %s \nPopulação: %i \nÁrea: %f \nPIB: %f \nPontos turísticos: %i \n", estado2, cidade2, populacao2, area2, PIB2, pontosturisticos2);
 
     return 0;
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
         
     }
 
