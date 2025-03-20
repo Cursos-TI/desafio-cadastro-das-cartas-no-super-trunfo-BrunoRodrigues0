@@ -37,7 +37,6 @@
     printf("Estado: %s \nCidade: %s \nPopulação: %i \nÁrea: %f \nPIB: %f \nPontos turísticos: %i \n\n", estado, cidade, populacao, area, PIB, pontosturisticos);
 
     // CARTA 2
-
     
     char estado2 [50];
     char codigo2 [50];
